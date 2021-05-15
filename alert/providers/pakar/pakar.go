@@ -2,7 +2,6 @@ package pakar
 
 import (
 	"encoding/json"
-	"io"
 	"net/http"
 )
 
@@ -15,7 +14,7 @@ type Provider struct {
 
 type Response struct {
 	Data  []string `json:"data"`
-	Id    string   `json:"id"`
+	Id    int64    `json:"id"`
 	Title string   `json:"title"`
 }
 
@@ -52,9 +51,6 @@ func (p *Provider) GetAllAlerts() ([]string, error) {
 	defer resp.Body.Close()
 
 	if err = json.NewDecoder(resp.Body).Decode(&response); err != nil {
-		if err == io.EOF {
-			return nil, nil
-		}
 		return nil, err
 	}
 
