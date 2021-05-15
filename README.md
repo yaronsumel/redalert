@@ -7,6 +7,12 @@ notifies you on red alert based on city filter
 
 # usage
 
+All alerts (no filter)
+
+`$ redalert`
+
+Specific city
+
 `$ redalert -filter="רמת גן"`
 
 # Important notice
