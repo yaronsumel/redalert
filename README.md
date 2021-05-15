@@ -1,5 +1,6 @@
 ### !! For research purposes only !! -  למטרות מחקר בלבד !! 
 ### !! התרעות אלו אינן מהוות תחליף למערכת ההתרעות הרשמית של פיקוד העורף !!
+### !! This program does not replace the offical pikud haoref alerts !!
 
 # redalert
 notifies you on red alert based on city filter 
@@ -24,10 +25,9 @@ Specific city
 
 # Important notice
 
-This app does not replace your sirens !! 
-
 ### !! For research purposes only !! -  למטרות מחקר בלבד !! 
 ### !! התרעות אלו אינן מהוות תחליף למערכת ההתרעות הרשמית של פיקוד העורף !!
+### !! This program does not replace the offical pikud haoref alerts !!
 
 ## License
 ```
