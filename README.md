@@ -7,7 +7,7 @@ notifies you on red alert based on city filter
 
 # install (cross platform)
 
-`$ go install github.com/yaronsumel/redalert/cmd/redalert`
+`$ go get github.com/yaronsumel/redalert/cmd/redalert`
 
 # usage
 
