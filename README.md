@@ -17,8 +17,7 @@ Specific city
 
 # Notification example 
 
-![image](https://user-images.githubusercontent.com/4710984/118363622-e5831c80-b59d-11eb-8e88-c7c987907e5e.png)
-
+![image](https://user-images.githubusercontent.com/4710984/118363641-02b7eb00-b59e-11eb-8eb5-1708b929a292.png)
 
 # Important notice
 
